@@ -13,7 +13,7 @@
 
 header {
     width: 100vmax;
-    height: 100vmax;
+    height: 100vh;
     background: 
     linear-gradient(180deg,
     rgba(0,0,0,1) 0%, 
@@ -168,17 +168,31 @@ main .Sostenibilidad{
 }
 
 .fotos{
-    display: flex;
-    flex-wrap: wrap;
+    display: flex;  
+    text-align: bottom;
 }
 
+
+
 .sus{
+    vertical-align: text-top;
     flex: 33%;
+    
+}
+
+.orq{   
+    
+}
+.ave{
+    top: 2220px;
+    left: 319px;
+    width: 387px;
+    height: 258px;
 }
 
 .DESTACAMOS-PRENSA-REDES{
     background-color: #e4e6e8 ;
-}
+   }
 
 
 
